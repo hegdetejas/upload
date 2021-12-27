@@ -1,10 +1,10 @@
 import type { NextPage } from 'next';
 
 
-const Home: NextPage = () => {
+export default function Home() {
   return (
-    <div className="text-2xl text-red-200">Hello World</div>
+    <div className="text-2xl text-red-500">
+      Hello World
+    </div>
   )
 }
-
-export default Home

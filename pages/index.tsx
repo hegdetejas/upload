@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import type { NextPage } from 'next';
 
 // components
-import Header from "./components/header";
+import Header from "../components/header";
 
 
 export default function Home() {
@@ -20,22 +20,6 @@ export default function Home() {
   //     .then((greeting) => greeting.json());
   //   setUser(greeting.name);
   // };
-
-  const welcome = () => {
-    if (isLoggedIn) {
-      return (
-        <div className="flex flex-row justify-center text-3xl text-white font-light animate-pulse">
-          Welcome {isLoggedIn}
-        </div> 
-      )
-    } else {
-      return (
-        <div>
-          Loading
-        </div>
-      )
-    }
-  }
 
   return (
     <Header

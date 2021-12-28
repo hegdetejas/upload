@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background': "#001e1f"
+        'background': "#001e1f",
+        'pointerHover': "#004145",
       }
     },
   },

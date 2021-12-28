@@ -31,7 +31,7 @@ export default function Signup() {
                         </div>
                     </div>
                     <div className="col-start-1 col-end-4 row-start-5 flex flex-row justify-center text-sm text-green-300">
-                        Already have an account? Log in &nbsp;<span className="underline"><Link href="/login">here</Link></span>
+                        Already have an account? Log in <span className="underline"><Link href="/login">here</Link></span>
                     </div>
                 </div>
             </div>

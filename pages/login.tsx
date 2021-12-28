@@ -26,7 +26,7 @@ export default function Login() {
                         </div>
                     </div>
                     <div className="col-start-1 col-end-4 row-start-4 flex flex-row justify-center text-sm text-green-300">
-                        Don't have an account yet? Sign up <span className="underline"><Link href="/signup">here</Link></span>
+                        Don&apos;t have an account yet? Sign up &nbsp;<span className="underline"><Link href="/signup">here</Link></span>
                     </div>
                 </div>
             </div>
